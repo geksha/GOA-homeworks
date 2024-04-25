@@ -1,1 +1,1 @@
-print("gavicani da davm")
+print("gavicani da davumegobrdi ")
