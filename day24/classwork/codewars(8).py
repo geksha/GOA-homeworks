@@ -6,3 +6,10 @@ def remove_smallest(numbers):
         nums.remove(min(numbers))
         return nums
         
+# გზა 2
+        
+def remove_smallest(numbers):
+    if numbers == []:
+        return []
+    else:
+        result
