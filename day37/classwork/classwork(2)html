@@ -1,0 +1,41 @@
+<html>
+    <head> 
+        <title>About Us</title>
+    </head>
+    <body>
+
+        <table style="border: blue solid 2px">
+
+            <thead>
+                 <!-- Table row-->
+                <tr style="color: red">
+                    <!-- Table header -->
+                    <th>Name</th>
+                    <th>Lastname</th>
+                    <th>City</th>
+                </tr>   
+            </thead>
+
+            </tbody style="color: green">    
+                <tr>
+                   <!-- Table data -->
+                   <td>Luka</td>
+                   <td>Luka</td>
+                   <td>Luka</td>
+                 </tr>
+
+                <tr>
+                   <td>Luka</td>
+                   <td>Luka</td>
+                   <td>Luka</td>
+                </tr>
+
+                <tr>
+                   <td>Luka</td>
+                   <td>Luka</td>
+                   <td>Luka</td>
+                 </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
