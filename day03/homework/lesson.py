@@ -1,1 +1,0 @@
-print("gavicani da davumegobrdi")
