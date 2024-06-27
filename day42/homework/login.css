@@ -1,0 +1,27 @@
+.sign {
+    border: 2px;
+    border-style: solid;
+    border-color: grey:
+    border-radius: 20px;
+    width: 210px;
+    height: 250px;
+    margin-top: 60px;
+    padding: 30px;
+    background-color: white;
+}
+
+.title {
+    font-size: 35px;
+    color: grey;
+}
+
+input {
+    border-color: blue;
+    border-radius: 5px;
+}
+
+body {
+    background-color: green;
+}
+
+input [type="submit"]
