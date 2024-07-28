@@ -1,0 +1,44 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+
+    animation-name: firstanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes firstanimation {
+    0% {
+        background-color: blue;
+        width: 100px;
+    }
+
+    20% {
+        background-color: aqua;
+        width: 600px;
+    }
+
+    40% {
+       background-color: blue;
+       width: 300px;
+    }
+
+    60% {
+        background-color: chocolate;
+        width: 900px;
+    }
+
+    80% {
+        background-color: blueviolet;
+        width: 450px;
+    }
+
+    100% {
+        background-color: red;
+        width: 1350px;
+    }
+}

@@ -1,0 +1,25 @@
+.bt1 {
+    transition: scale(-3);
+}
+
+.bt1:hover {
+    transform: rotate(5deg);
+}
+
+.bt {
+    transform: rotate(5deg);
+}
+
+.bt2{
+    background-color: #f9f871;
+}
+
+.bt2:hover {
+    transition: translate(20px, 20px);
+}
+
+.bt3 {
+    transform: skewX(45);
+}
+
+

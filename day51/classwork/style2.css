@@ -1,0 +1,15 @@
+body {
+    margin: 100px;
+    padding: 100px 500px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #3DCCC7;
+    transition-duration: 1s;
+}
+
+.box:hover {
+    background: #2d0fc2;
+}
