@@ -20,7 +20,7 @@ initial_chars("Gega Devdariani")
 
 def avreage_arithmetic(number_list):
     jami = sum(number_list)
-    result - jami / len(number_list)
+    result = jami / len(number_list)
 
 avreage_arithmetic([1,2,3])
 
@@ -44,15 +44,12 @@ print(function_sum // 5)
 #შექმენით ფუნქცია, რომელსაც გადასცემთ სიტყვას და შემოწმდება არის თუ არა ის პალინდრომი (პალინდრომია სიტყვა, თუ მისი შებრუნებულიც იგივე გამოდის, მაგ: level)
 
 word = input["enter word: "]
-word1 = 
-def my_word(string):
-    if word == "word"[::-1]:
+def palindrome(word):
+    if word == word[::-1]:
      print("False")
-    else: word != "word"[::-1]
+    else: word != word[::-1]
 print("True")
    
-   
-
 
 
 
