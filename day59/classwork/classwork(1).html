@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--
+# 3)
+```
+შექმენით ფუნქცია სახელად changeColor რომელიც ფერს შეცვლის div block-ს შესაბამის ღილაკზე დაჭერისას
+დაამატეთ ღილაკები: Red, Blue, Green, Purple, Black
+```
+
+
+-->
+<body>
+    <div id="colorful"></div>
+    <button onclick="changeColor('Red')">Red</button>
+    <button onclick="changeColor('Blue')">Blue</button>
+    <button onclick="changeColor('Green')">Green</button>
+    <button onclick="changeColor('Purple')">Purple</button>
+    <button onclick="changeColor('Black')">Black</button>
+
+    <script>
+        let block = document.getElementById("colorful")
+
+        function changeColor(color){
+            block.style.backgroundColor = color
+        }
+    </script>
+</body>
+</html>

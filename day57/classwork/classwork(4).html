@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Javascript</title>
+    </head>
+    <body>
+
+        <p id="count">0</p>
+        <button id="increment">+1</button>
+        <button id="decrement">-1</button>
+        
+        <script>
+            const p = document.getElementById("count");
+    
+            const increment = document.getElementById("increment");
+            const decrement = document.getElementById("decrement");
+    
+            let count = 0;
+    
+            // increment.onclick = function(){
+            //     count++;
+            //     p.textContent = count;
+            // }
+    
+            // decrement.onclick = function(){
+            //     count--;
+            //     p.textContent = count;
+            // }
+            
+            increment.addEventListener("click", function()){
+                count++;
+                p.textContent = count;
+            }
+
+            decrement.addEventListener("click", function()){
+                count--;
+                p.textContent = count;
+            }
+           
+        </script>
+    </body>
+    </html>
