@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add Paragraph Example</title>
+    </head>
+    <body>
+        <div id="content"></div>
+        
+        <button id="ParagraphBtn">Add Paragraph</button>
+        
+        <script>
+            function addParagraph() {
+                var contentDiv = document.getElementById('content');
+                
+                var newParagraph = document.createElement('p');
+                
+                var uniqId = 'para-' + Date.now();
+                newParagraph.id = uniqId;
+                
+                newParagraph.textContent = 'This is a new paragraph ' + uniqId;
+                
+                contentDiv.appendChild(newParagraph);
+            }
+            
+            document.getElementById('ParagraphBtn').addEventListener('click', addParagraph);
+        </script>
+    </body>
+    </html>
+
+    

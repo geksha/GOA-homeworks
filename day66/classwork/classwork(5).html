@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Paragraphs Example</title>
+</head>
+<body>
+    <div id="container">
+        <p id="p1">first paragraph.</p>
+        <p id="p2">second paragraph.</p>
+        <p id="p3">third paragraph.</p>
+    </div>
+    
+    <script>
+        function removeParagraphs() {
+
+            var container = document.getElementById('container');
+            
+            var firstParagraph = container.firstElementChild;
+            container.removeChild(firstParagraph);
+            
+            var paragraphs = container.getElementsByTagName('p');
+            var thirdParagraph = paragraphs[1]; 
+            thirdParagraph.remove();
+        }
+        
+        removeParagraphs();
+    </script>
+</body>
+</html>
+
