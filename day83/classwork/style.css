@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: white;
+    color: black;
+    perspective: 100px;
+}
+
+header {
+    background: green;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.animal-card {
+    transform-style: preserve-3d;
+    background: white;
+    border: 1px solid white;
+    border-radius: 0px;
+    margin: 0.5rem;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0,);
+    transition: transform 0.2s;
+    transform: rotateY(0deg);
+}
+
+.animal-card
